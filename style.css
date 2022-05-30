@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-cont{
+    width: 80%;
+    height:70vh;
+    position: relative;
+    margin: 2rem auto;
+    overflow:hidden;
+    /* border: 1px solid black; */
+}
+.btn{
+    display: flex;
+    border-bottom: 2px solid black;
+    background-color:#4a69bd ;
+     border-top: 2px solid black;
+
+}
+.btn button{
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    /* margin-right: 3rem; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:white;
+}
+
+/* .subbtn{
+    background-color: #8c7ae6;
+    width: 5rem;
+    height: 2rem;
+} */
+
+.content1 ,.content2 , .content3{
+    margin-top:2rem;
+    width:100%;
+    background-color:#9c88ff;
+    height: 17rem;
+    border-radius:2px;
+
+}
+
+.content3{
+    
+    overflow-y:scroll;
+    margin-top:0.7rem;
+    width:100%;
+    background-color:#9c88ff;
+    height: 25rem;
+    border-radius:2px;
+
+}
+
+/*.headcontainer{
+    position: absolute;
+    top:2rem;
+ 
+   
+
+
+}
+
+ .headcontainer>*{
+
+    margin:10rem;
+}*/
+
+
+
+.content2{
+    display: flex;
+    flex-direction: column;
+} 
+
+#searchstr{
+    outline: none;
+    width: 65rem;
+    height: 9rem;
+    resize: none;
+    font-size: 1rem;
+}
+
+
+
+
+
+.subbtn{
+    margin: 1.6rem; 
+    padding: 5px;
+    width:5rem;
+    border-radius: 3px;
+    height: 2rem;
+    background-color:#8c7ae6;
+    cursor: pointer;
+    border:none ;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cont3btn{
+    /* margin: 1rem;  */
+    padding: 5px;
+    width:5rem;
+    border-radius: 3px;
+    height: 2rem;
+    background-color:#8c7ae6;
+    cursor: pointer;
+    border:none ;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+  table{
+      width:100%;
+      border-spacing: 1.1rem;
+      
+  }
+
+  th{
+       width:auto;
+      
+      opacity:1;
+      height:2rem;
+      text-align :center;
+      font-size:1.3rem;
+    
+      background-color:#8c7ae6;
+      border-radius:4px; }
+  
+  
+  td{
+    width:auto;
+    height:1.5rem;
+    text-align :center;
+    color:white;
+    font-size:1.5rem;
+   
+  }
+
+  tr{
+      height:1rem;
+      /* margin-top:1rem; */
+      /* border:1px solid black;  */
+     
+  }
+  
+.content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 5% auto; */
+    transition: 0.3s;
+    transform: translateX(100%);
+}
+
+body{
+    background-size:cover;
+    background-image:url('bg.jpg')  ;
+    background-repeat:no-repeat;
+}
+
+h1,h3{
+    color:white;
+    margin: 1rem 1.6rem;
+}
+
+
+
+  
+  

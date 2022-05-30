@@ -1,0 +1,3 @@
+Hello World.
+Using Tesseract's OCR.
+From srcmake.
